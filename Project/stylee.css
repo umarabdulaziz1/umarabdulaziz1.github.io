@@ -1,0 +1,34 @@
+.fontreee{
+    display: flex;
+    justify-content: center;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.593);
+    color: white;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+}
+.image1{
+    display: flex;
+    justify-content: center;
+    background-size: auto;
+    background-color: rgba(0, 0, 0, 0.593);
+    color: white;
+    width: 5%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: x-large;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.text1{
+    color: white;
+    
+}

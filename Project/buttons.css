@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    }
+    ul {
+    list-style: none;
+    background: rgba(66, 183, 245, 0.8);
+    }
+    ul li {
+    display: inline-block;
+    position: relative;
+    }
+    ul li a {
+    display: block;
+    padding: 25px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    }
+    ul li ul.dropdown li {
+    display: block;
+    }
+    ul li ul.dropdown {
+    width: 100%;
+    height: fit-content;
+    background: #22438C;
+    position: absolute;
+    z-index: 777;
+    display: none;
+    font-size: medium;
+    }
+    ul li a:hover {
+    background: #112C66;
+    }
+    ul li:hover ul.dropdown {
+    display: block;
+    transition: 500ms;
+    }
+
+    @keyframes slide{
+        from {
+            transform:translateX(300px)
+        }
+        to{
+            transform: translateX(150);
+        }
+    }
+.animation1 {
+        animation-name: slide;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        transform:translateX(0px);
+        color: white;
+    }
+
+    @keyframes slide2{
+        from {
+            transform:translateY(1000px)
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
+.animation2 {
+        animation-name: slide2;
+        animation-duration: 0.9s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        transform:translateY(0px);
+        color: white;
+    }
